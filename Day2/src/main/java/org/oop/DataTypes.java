@@ -1,4 +1,4 @@
-package org.example;
+package org.oop;
 public class DataTypes {
 
     int number = 10;
