@@ -11,6 +11,16 @@ public class StringArrayDemo {
         strArray[3] = "Pineapple";
         strArray[4] = "Grapes";
 
+
+        // printing strArray using while loop
+        int i = 0;
+        while(i < strArray.length){
+            System.out.println(strArray[i]);
+            i ++;
+        }
+        System.out.println("---------------------");
+
+        // printing strArray using for loop
         for(String s : strArray){
             System.out.println(s);
         }
