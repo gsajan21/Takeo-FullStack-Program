@@ -8,12 +8,14 @@
   <name>ServletsInJava Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>6.0.0</version>
+      <scope>provided</scope>
     </dependency>
+
   </dependencies>
   <build>
     <finalName>ServletsInJava</finalName>

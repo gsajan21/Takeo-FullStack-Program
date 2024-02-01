@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-welcome , <% out.println(request.getAttribute("username")) ;%>
+Welcome, <% out.println(request.getAttribute(" username")) ;%>
 </body>
 </html>
