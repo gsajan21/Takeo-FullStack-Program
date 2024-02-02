@@ -46,12 +46,12 @@
 
 
   <filter>
-    <filter-name>servletA</filter-name>
+    <filter-name>filterA</filter-name>
     <filter-class>com.filter.FilterA</filter-class>
   </filter>
 
   <filter-mapping>
-    <filter-name>servletA</filter-name>
+    <filter-name>filterA</filter-name>
     <url-pattern>/sampleA</url-pattern>
   </filter-mapping>
 

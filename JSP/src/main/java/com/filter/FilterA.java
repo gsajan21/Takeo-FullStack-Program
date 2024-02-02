@@ -15,10 +15,10 @@ public class FilterA implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         System.out.println(request.getParameter("username"));
         String username = request.getParameter("username");
-        if(username.equals("sajan")){
+        if(username.equalsIgnoreCase("sajan")){
             chain.doFilter(request,response);
         }else {
-
+            System.out.println("Error.");
         }
     }
 
