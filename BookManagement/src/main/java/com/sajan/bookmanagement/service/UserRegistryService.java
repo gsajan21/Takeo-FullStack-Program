@@ -16,4 +16,5 @@ public class UserRegistryService {
         return userDAO.saveUser(user);
 
     }
+
 }
