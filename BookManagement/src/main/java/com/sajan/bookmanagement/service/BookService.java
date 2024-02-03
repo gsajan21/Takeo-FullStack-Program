@@ -3,14 +3,22 @@ package com.sajan.bookmanagement.service;
 import com.sajan.bookmanagement.dao.BookDao;
 import com.sajan.bookmanagement.model.Book;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BookService {
 
     public List<Book> getBooks(){
         BookDao bookDao = new BookDao();
+        List<Book> books= new ArrayList<>();
 
-        return null;
+        try {
+            books = bookDao.getBooks();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return books;
     }
 
 }

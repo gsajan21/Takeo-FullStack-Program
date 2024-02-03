@@ -16,7 +16,7 @@ public class BookDao {
 
         Connection connection = DBUtil.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("Select * from Books");
+        PreparedStatement preparedStatement = connection.prepareStatement("Select * from Book");
 
         ResultSet resultSet = preparedStatement.executeQuery();
         List<Book> bookList = new ArrayList<>();
@@ -31,5 +31,9 @@ public class BookDao {
         }
 
         return bookList;
+    }
+    public boolean updateBookByBookId(Integer bookId){
+        return false;
+//        update book set bookname=?,bookdescritpon=?,price=? where bookId=?
     }
 }

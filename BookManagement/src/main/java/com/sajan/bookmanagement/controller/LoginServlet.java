@@ -1,6 +1,7 @@
 package com.sajan.bookmanagement.controller;
 
 import com.sajan.bookmanagement.dao.UserDao;
+import com.sajan.bookmanagement.model.User;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -21,16 +22,21 @@ public class LoginServlet extends HttpServlet {
         String password = req.getParameter("password");
 
         UserDao userDao = new UserDao();
-        boolean userAuthenticate = userDao.authenticateUser(username, password);
-        // Check if the credentials are valid (for demonstration purposes, checking against hardcoded values)
-        if (userAuthenticate) {
-            // If valid, create a session and store the username
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("welcome.jsp");
-            req.setAttribute("username", username);
-            requestDispatcher.forward(req, resp);
+        User authenticationOfUser = userDao.getAuthenticationOfUser(username, password);
+        if (authenticationOfUser != null) {
+            String userRole = authenticationOfUser.getRole();
+            if ("admin".equalsIgnoreCase((userRole))) {
+                RequestDispatcher requestDispatcher = req.getRequestDispatcher("/bookServlet");
+//                req.setAttribute("username", username);
+                requestDispatcher.forward(req, resp);
+            } else if ("user".equalsIgnoreCase(userRole)) {
+                RequestDispatcher requestDispatcher = req.getRequestDispatcher("/bookServlet");
+//                req.setAttribute("username", username);
+                requestDispatcher.forward(req, resp);;
+            } else{
+                resp.sendRedirect("failure.jsp");
+            }
 
-            // Redirect to the success page
-            resp.sendRedirect("welcome.jsp");
         } else {
             // If invalid, redirect to the failure page
             resp.sendRedirect("failure.jsp");
