@@ -1,10 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.util.*" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ page import="com.sajan.bookmanagement.model.Book" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <style type="text/css">
+    <meta charset="ISO-8859-1">
+    <title>Update Book</title>
+</head>
+<style type="text/css">
       body {
                   font-family: Arial, sans-serif;
                   background-color: #f4f4f4;
@@ -50,42 +52,31 @@
                   background-color: #45a049;
               }
     </style>
-    <meta charset="UTF-8">
-    <title>Book List</title>
-</head>
 <body>
 
-    <form action="adminServlet" method="post">
+    <form action="adminServlet" method="put">
         <table>
-            <thead>
-                <tr>
-                    <th>Select</th>
-                    <th>Book Name</th>
-                </tr>
-            </thead>
-            <tbody>
-            <% String role = (String)request.getAttribute("role"); %>
-                <%
-                    List<Book> books = (List<Book>)request.getAttribute("books");
-                    for (Book book : books) {
-                %>
-                    <tr>
-                        <td><input type="checkbox" name="listofbookid" value="<%= book.getBookId() %>"></td>
-                        <td><%= book.getBookName() %></td>
-                    </tr>
-                <% } %>
-            </tbody>
+            <% Book book = (Book)request.getAttribute("books"); %>
+
+            <input type="hidden" name="id" value="<%= book.getBookId() %>">
+
+            <tr>
+                <td>Book Name:</td>
+                <td><input type="text" name="bname" value="<%= book.getBookName() %>"></td>
+            </tr>
+
+            <tr>
+                <td>Description:</td>
+                <td><input type="text" name="description" value="<%= book.getBookDescription() %>"></td>
+            </tr>
+
+            <tr>
+                <td>Price:</td>
+                <td><input type="text" name="price" value="<%= book.getBookPrice() %>"></td>
+            </tr>
+
         </table>
-        <br>
-        <div>
-            <form action="adminServlet" method="post">
-                <% if("admin".equalsIgnoreCase(role)) { %>
-                    <input type="submit" value="Update" name="buttonId">
-                <% } else { %>
-                    <input type="submit" value="Order" name="buttonId">
-                <% } %>
-            </form>
-        </div>
+        <input type="submit" value="Update" name="update">
     </form>
 
 </body>

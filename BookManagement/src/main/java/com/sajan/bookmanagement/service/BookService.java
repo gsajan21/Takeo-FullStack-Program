@@ -21,4 +21,16 @@ public class BookService {
         return books;
     }
 
+    public Book getBookById(Integer bookId){
+       BookDao bookDao = new BookDao();
+        try {
+            return bookDao.getBookById(bookId);
+        } catch (SQLException e) {
+
+        }
+        return null;
+    }
+
+
+
 }

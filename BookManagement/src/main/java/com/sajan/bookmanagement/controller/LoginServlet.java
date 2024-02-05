@@ -27,10 +27,12 @@ public class LoginServlet extends HttpServlet {
             String userRole = authenticationOfUser.getRole();
             if ("admin".equalsIgnoreCase((userRole))) {
                 RequestDispatcher requestDispatcher = req.getRequestDispatcher("/bookServlet");
+                req.setAttribute("role", authenticationOfUser.getRole());
 //                req.setAttribute("username", username);
                 requestDispatcher.forward(req, resp);
             } else if ("user".equalsIgnoreCase(userRole)) {
                 RequestDispatcher requestDispatcher = req.getRequestDispatcher("/bookServlet");
+                req.setAttribute("role", authenticationOfUser.getRole());
 //                req.setAttribute("username", username);
                 requestDispatcher.forward(req, resp);;
             } else{

@@ -8,7 +8,7 @@
 <body>
     <h2>Add Book</h2>
     <!-- Add form to input book details and submit to BookOrderOrUpdateServlet -->
-    <form action="BookOrderOrUpdateServlet" method="post">
+    <form action="adminServlet" method="post">
         <!-- Add book input fields (title, author, price, etc.) -->
         <!-- Example: -->
         Title: <input type="text" name="title"><br>

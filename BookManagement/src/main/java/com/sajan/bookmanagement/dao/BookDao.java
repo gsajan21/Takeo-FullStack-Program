@@ -26,14 +26,43 @@ public class BookDao {
             book.setBookId(resultSet.getInt(1));
             book.setBookName(resultSet.getString(2));
             book.setBookDescription(resultSet.getString(3));
-            book.setBookPrice(resultSet.getString(4));
+            book.setBookPrice(resultSet.getInt(4));
             bookList.add(book);
         }
 
         return bookList;
     }
-    public boolean updateBookByBookId(Integer bookId){
+    public boolean updateBook(String bookName, String bookDescription, Integer bookPrice, Integer bookId)  {
+        Connection connection = DBUtil.getConnection();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("update book set book_name=?,book_description=?, book_price=? where book_id=?");
+            preparedStatement.setString(1, bookName);
+            preparedStatement.setString(2, bookDescription);
+            preparedStatement.setInt(3, bookPrice);
+            preparedStatement.setInt(4, bookId);
+            preparedStatement.executeUpdate();
+            return true;
+        } catch (SQLException e) {
+            System.out.println(e);
+        } finally {
+            DBUtil.closeConnection();
+        }
         return false;
-//        update book set bookname=?,bookdescritpon=?,price=? where bookId=?
+    }
+
+    public Book getBookById(Integer bookId) throws SQLException {
+        Connection connection = DBUtil.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement("Select * from book where book_id=?");
+        preparedStatement.setInt(1, bookId);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        Book book  = new Book();
+        while(resultSet.next()){
+            book.setBookId(resultSet.getInt(1));
+            book.setBookName(resultSet.getString(2));
+            book.setBookDescription(resultSet.getString(3));
+            book.setBookPrice(resultSet.getInt(4));
+        }
+        return book;
+
     }
 }

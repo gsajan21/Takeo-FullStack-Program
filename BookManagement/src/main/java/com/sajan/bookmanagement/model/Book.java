@@ -4,12 +4,12 @@ public class Book {
     private Integer bookId;
     private String bookName;
     private String bookDescription;
-    private String bookPrice;
+    private Integer bookPrice;
 
     public Book() {
     }
 
-    public Book(Integer bookId, String bookName, String bookDescription, String bookPrice) {
+    public Book(Integer bookId, String bookName, String bookDescription, Integer bookPrice) {
         this.bookId = bookId;
         this.bookName = bookName;
         this.bookDescription = bookDescription;
@@ -40,11 +40,11 @@ public class Book {
         this.bookDescription = bookDescription;
     }
 
-    public String getBookPrice() {
+    public Integer getBookPrice() {
         return bookPrice;
     }
 
-    public void setBookPrice(String bookPrice) {
+    public void setBookPrice(Integer bookPrice) {
         this.bookPrice = bookPrice;
     }
 }
