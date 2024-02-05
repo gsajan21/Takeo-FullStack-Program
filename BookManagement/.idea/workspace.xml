@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e84a7e-a30b-48cc-8b45-1ed300475433" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateBook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/controller/BookOrderOrUpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/controller/BookOrderOrUpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sajan/bookmanagement/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/books.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/books.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upateBook.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/failure.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/failure.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

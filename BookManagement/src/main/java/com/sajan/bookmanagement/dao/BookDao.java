@@ -62,6 +62,7 @@ public class BookDao {
             book.setBookDescription(resultSet.getString(3));
             book.setBookPrice(resultSet.getInt(4));
         }
+        DBUtil.closeConnection();
         return book;
 
     }
