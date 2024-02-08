@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1241548e-b861-46b3-8cd0-33957fa41541" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/com/sajan/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/src/main/java/com/sajan/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2c03cEMrzJ2YPF0q7bafOYIl7xZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1241548e-b861-46b3-8cd0-33957fa41541" name="Changes" comment="" />
+      <created>1707234745391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707234745391</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2414159d-92d0-40cc-8e5c-ec6c7eaa2cd0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/src/main/java/com/sajan/FunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonPattern/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/com/sajan/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/src/main/java/com/sajan/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/src/main/java/com/sajan/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBean/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/java/com/sajan/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/WEB-INF/dispatcher-servlet-sample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/WEB-INF/view/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/src/main/java/com/sajan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/src/test/java/com/sajan/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2c2hLo7hH3BDL2MbvV6eH3PGJFh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2414159d-92d0-40cc-8e5c-ec6c7eaa2cd0" name="Changes" comment="" />
+      <created>1707315527322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707315527322</updated>
+    </task>
+    <servers />
+  </component>
+</project>
