@@ -4,64 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92de83a8-1d4a-4754-b5a9-d791c7b660e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/src/main/java/com/sajan/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/src/main/java/com/sajan/FunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaStreamAPI/src/test/java/com/sajan/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/com/sajan/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/src/test/java/com/sajan/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/com/sajan/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/src/main/java/com/sajan/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/src/main/java/com/sajan/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/src/main/java/com/sajan/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBean/src/test/java/com/sajan/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringExcelProcessingUsingHibernate/src/main/java/com/sajan/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/controller/SampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/dao/SampleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/model/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sajan/service/SampleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet-sample.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/src/main/java/com/sajan/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringWithHibernate/src/test/java/com/sajan/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="92de83a8-1d4a-4754-b5a9-d791c7b660e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -88,53 +31,29 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2c2q8HMrxPcrxd3vvzX33LEbCDa" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sajangurung/Takeo FullStack Program/SpringCore/SpringMVC",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
-      <predefined_log_file id="Tomcat Catalina Log" />
-      <predefined_log_file id="Tomcat Manager Log" />
-      <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="catalinaBase" value="$USER_HOME$/.SmartTomcat/SpringMVC/SpringMVC" />
-      <option name="contextPath" value="/springmvc" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="extraClassPath" value="" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.85" />
-          <option name="path" value="$USER_HOME$/tomcat server/apache-tomcat-9.0.85" />
-          <option name="version" value="9.0.85.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" value="" />
-      <module name="SpringMVC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -154,5 +73,10 @@
       <updated>1707319860204</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>
