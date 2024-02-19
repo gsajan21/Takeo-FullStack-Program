@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,13 +10,17 @@
         <module name="HelloService" />
         <module name="HiService" />
         <module name="ServiceRegistry" />
+        <module name="BookManagementService" />
+        <module name="OrderManagementService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookManagementService" options="-parameters" />
       <module name="HelloService" options="-parameters" />
       <module name="HiService" options="-parameters" />
+      <module name="OrderManagementService" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
     </option>
   </component>
