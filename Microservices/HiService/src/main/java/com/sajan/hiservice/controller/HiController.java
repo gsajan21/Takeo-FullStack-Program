@@ -15,5 +15,9 @@ public class HiController {
         String forObject = restTemplate.getForObject("http://192.168.0.13:1111/hello/" + name, String.class);
         return "Welcome: " + forObject;
     }
+    @GetMapping("/hi")
+    public String hi(){
+        return "Hello, How are you?";
+    }
 
 }

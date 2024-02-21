@@ -12,11 +12,13 @@
         <module name="ServiceRegistry" />
         <module name="BookManagementService" />
         <module name="OrderManagementService" />
+        <module name="AdminServerApplication" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AdminServerApplication" options="-parameters" />
       <module name="BookManagementService" options="-parameters" />
       <module name="HelloService" options="-parameters" />
       <module name="HiService" options="-parameters" />

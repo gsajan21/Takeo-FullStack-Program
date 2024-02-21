@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/HiService/pom.xml" />
         <option value="$PROJECT_DIR$/BookManagementService/pom.xml" />
         <option value="$PROJECT_DIR$/OrderManagementService/pom.xml" />
+        <option value="$PROJECT_DIR$/AdminServerApplication/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
